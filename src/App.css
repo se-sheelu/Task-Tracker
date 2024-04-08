@@ -1,0 +1,29 @@
+center h1 {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+.items-container {
+  text-align: left;
+}
+
+.my-button {
+  min-width: 80px;
+  color: yellow;
+}
+
+.my-row {
+  margin: 10px 5px;
+}
+
+.message {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 40px;
+}
