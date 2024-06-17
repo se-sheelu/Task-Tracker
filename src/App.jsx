@@ -11,10 +11,6 @@ function App() {
 
   const handleNewItem = (todoName, todoDate) => {
     setTodoItems((currValue) => {
-      if (todoName.trim() === "" || todoDate.trim() === "") {
-        alert("Please enter a task and a date.");
-        return;
-      }
       if (todoName !== "" && todoDate !== "") {
         const newTodoItem = [
           ...currValue,
