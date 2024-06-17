@@ -10,6 +10,12 @@ function AddTodo({ onNewItem }) {
     event.preventDefault();
     const todoName = todoNameElement.current.value;
     const todoDate = tododateElement.current.value;
+
+    if (todoName.trim() === "" || todoDate.trim() === "") {
+      alert("Please enter a task and a date.");
+      return;
+    }
+    
     onNewItem(todoName, todoDate);
     todoNameElement.current.value = "";
     tododateElement.current.value = "";
